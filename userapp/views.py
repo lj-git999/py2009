@@ -10,3 +10,5 @@ def index(request):
 def login(request):
     '''登录逻辑'''
     return HttpResponse('OK')
+def logout(request):
+    return HttpResponse('退出')
